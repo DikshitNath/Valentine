@@ -9,7 +9,7 @@ yes.addEventListener("click", () => {
       <h1 style="text-align:center;">
         💖 I knew you’d say YES 💖
       </h1>
-      <img " src="/dudu-kiss-bubu-kisses.gif">
+      <img src="./dudu-kiss-bubu-kisses.gif">
       <h1 style="text-align:center; font-size:1.8rem; margin-top:20px;">
         💖 LOVE YOU FOREVER 💖
     </h1>
