@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffe6e6;
+}
+
+.container {
+    padding: 2rem;
+    width: 30vw;
+    height: 40vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 52, 86, 0.575);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heart {
+    width: 40%;
+}
+
+.buttons {
+    display: flex;
+    gap: 2vw;
+    margin-bottom: 2rem;
+}
+
+.yes, .no {
+    padding: 12px 26px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 52, 86);
+    font-size: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* 📱 Tablets & small laptops */
+@media (max-width: 1024px) {
+    .container {
+        width: 60vw;
+        height: auto;
+    }
+}
+
+/* 📱 Mobile phones */
+@media (max-width: 600px) {
+    .container {
+        width: 90vw;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .heart {
+        width: 35%;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        align-items: center;
+    }
+
+    .yes, .no {
+        font-size: 1rem;
+    }
+}
